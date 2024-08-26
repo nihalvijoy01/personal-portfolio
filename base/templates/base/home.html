@@ -1,0 +1,100 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nihal Vijoy</title>
+	<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+</head>
+<body>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card card-body h-100  border-info" id="profile-wrapper">
+					<img id="profile-pic" src="{% static 'images/nihal.jpg' %}" >
+					<hr>
+					<h4>Hi I'm Nihal!</h4>
+					<p>I love coding, doing research and collaborating</p>
+				</div>
+			</div>
+
+			<div class="col-md-9">
+				<div class="card card-body h-100  border-info">
+					<h4>About Me</h4>
+					<hr>
+					<p>I am a recent Bachelor of Technology graduate in Computer Science from St. Joseph's College of Engineering and Technology, with a passion for developing innovative software solutions. 
+                        My experience spans across full-stack development, machine learning, and mobile app development, where I have successfully implemented projects such as a Hostel Management System and a Waste Segregation System. 
+                        I am proficient in multiple programming languages, including Python, C, Java, Dart, and JavaScript, and have hands-on experience with frameworks like Flutter and Django, as well as databases such as MySQL and Firebase.
+                        My strong technical skills are complemented by my ability to solve complex problems and work effectively in team environments. I am eager to apply my skills in a dynamic and challenging role where I can contribute to impactful projects.</p>
+
+					<ul class="social-links">
+						<li><img class="social" src="{% static 'images/github.png' %}"></li>
+						<li><img class="social" src="{% static 'images/linkedin.png' %}"></li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>Final Year Project</h5>
+					<hr>
+					<p>WASTE SEGREGATION SYSTEM</p>
+                    <p> • Implemented a waste classification bot using CNN and machine learning library Tensorflow.</p>
+                        <p>  • The bot differentiates between paper, plastic and paper with an accuracy of 84 %.</p>
+                            <p>   • Familiarized with popular python libraries like numpy, matplotlib, cv2.</p>
+                                <p>   • Successfully integrated the bot in a raspberry pi 4 and waste bin which automatically segregates the
+                                       waste into 3 compartments.</p>
+                        </p>
+					</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>What I Know</h5>
+					<hr>
+					<p>Programming Languages: Python,C,Java,Dart, JavaScript</p>
+                    <p>Frameworks : Flutter, Django</p>
+                    <p>Databases: MySQL, Firebase</p>
+                    <p>Others : HTML, CSS</p>
+                    <p>Language Skills: English, Malayalam</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>Mini Project</h5>
+					<hr>
+					<p>HOSTELEASE/HOSTEL MANAGEMENT SYSTEM</p>
+                    <p>• Implemented a Full Stack Application that manages the activities associated with college
+                        hostels.
+                        </p>
+                    <p>• Managed activities like attendance marking, complaints lodging, ordering cleaning services
+                        and canteen management.</p>
+                    <p>• Used Flutter on the front end, with Firebase on the back end.</p>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Short Term Goals</h5>
+				<hr>
+				<p>My short-term goals are to secure a software development role where I can leverage my skills 
+                    in full-stack development and machine learning to contribute to impactful projects.</p>
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+
+
+</body>
+</html>
